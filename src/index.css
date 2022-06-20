@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1{
+  text-align: center;
+  color: #e03b61e5;
+}
+
+* {box-sizing: border-box;}
+
+.card_img
+{
+  width: 300px;
+  height: 300px;
+}
+
+
+/* Float four columns side by side */
+.imggg {
+  display: grid;
+  grid-template-columns: 32% 32% 32% ;
+  grid-gap: 20px;
+  
+}
+
+.row {
+margin-top : 20px;
+}
+/* Style the counter cards */
+.cardDesign {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.6);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #d5caca;
+  padding: 5px 10px;
+  text-align: center;
+}
+.header:hover {
+	background-color : #87CEEB;
+}
+
+.logo{
+font-size : 20px;
+font-weight: bold;
+}
+
+.mungadelg:hover{
+color : black;
+}
+/* 
+.imggg {
+  width: 100%;
+  height: auto;
+} */
+
+/* img {
+  width:auto;
+  height : auto;
+} */
+
+button {
+  cursor: pointer
+}

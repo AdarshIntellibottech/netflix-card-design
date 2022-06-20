@@ -1,0 +1,38 @@
+import React from "react";
+import CardComponent from "../Components/CardComponent";
+import CardComponenet from "../Components/CardComponent";
+import "../index.css"
+const CardScreen = () => {
+    return (<> 
+            <div className="header logo">
+            <h1 className= "mungadelg">
+                List of Top 3 front end technologies
+            </h1>
+            </div>
+           <div className="imggg">
+            <CardComponenet 
+            imgsrc = "https://img.freepik.com/free-vector/colorful-palm-silhouettes-background_23-2148541792.jpg?w=2000"
+            title = " One of the popular Library for front end asdfasd asdf asd fasdf asdf asdf as f "
+            label = "REACT"
+            link = "https://reactjs.org/"
+            />
+
+            < CardComponent 
+            imgsrc = "data:image/png;base64,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" 
+            title = " Developed by Google as cross platform framework dsf adsffa asdfdsa fdas adf asdf  "
+            label = "FLUTTER"
+            link = "https://flutter.dev/"
+            /> 
+
+            < CardComponent 
+            imgsrc = "data:image/png;base64,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"
+            title = "View framework for building user interfaces and single-page applications"
+            label = "VUE JS"
+            link = "https://vuejs.org/"
+            />
+            </div>
+
+            </>);
+}
+
+export default CardScreen;
